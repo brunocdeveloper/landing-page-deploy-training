@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>Meu primeiro deploy deu certo!!</p>
+      <p>Testando se o deploy vai ser feito mesmo com outra branch</p>
     </div>
   );
 }
