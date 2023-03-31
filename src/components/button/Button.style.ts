@@ -20,4 +20,8 @@ export const StyledButton: any = styled.button<ButtonProps>`
   ${fontSize};
 
   border-color: transparent;
+
+  :hover {
+    opacity: 0.8;
+  }
 `;

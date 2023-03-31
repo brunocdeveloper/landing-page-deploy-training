@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import {
   color,
   display,
@@ -10,7 +10,11 @@ import {
   width,
 } from "styled-system";
 
-export const StyledText: any = styled.p`
+interface Text {
+  hover: boolean;
+}
+
+export const StyledText: any = styled.p<Text>`
   ${display};
   ${space};
   ${width};
@@ -21,4 +25,13 @@ export const StyledText: any = styled.p`
   ${textAlign};
   font-family: "Inter", sans-serif;
   transition: color 0.2s ease-in-out;
+
+  ${(props) =>
+    props.hover &&
+    css`
+      :hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+    `}
 `;

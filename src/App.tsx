@@ -28,18 +28,21 @@ function App() {
           width={700}
         >
           <Text
+            hover
             text="Como funciona"
             color={theme.colors.textButton}
             fontSize={20}
             fontWeight={600}
           />
           <Text
+            hover
             text="Preço"
             color={theme.colors.textButton}
             fontSize={20}
             fontWeight={600}
           />
           <Text
+            hover
             text="Depoimentos"
             color={theme.colors.textButton}
             fontSize={20}
@@ -47,6 +50,7 @@ function App() {
           />
           <Box backgroundColor="black" height={45} width={2} />
           <Text
+            hover
             text="Login"
             color={theme.colors.textButton}
             fontSize={20}

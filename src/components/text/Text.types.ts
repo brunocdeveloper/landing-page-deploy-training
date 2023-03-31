@@ -21,4 +21,5 @@ export interface TextProps
     FontSizeProps {
   text?: string | React.ReactElement | React.ReactNode;
   onClick?: (event?: React.ChangeEvent<any>) => void;
+  hover?: boolean;
 }
