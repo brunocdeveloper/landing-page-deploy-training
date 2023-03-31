@@ -2,7 +2,6 @@ import styled, { css } from "styled-components";
 import {
   alignItems,
   alignSelf,
-  backgroundColor,
   borderRadius,
   color,
   display,

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import backgroundImg from "../assets/background-body.png";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -15,8 +16,12 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
-  html, body {
-    height: 100%;
+  body {
+    background-image: url(${backgroundImg});
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 975px;
   }
 
   li > {

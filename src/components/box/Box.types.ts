@@ -13,6 +13,7 @@ import {
   PositionProps,
   AlignSelfProps,
   MinWidthProps,
+  StylesProps,
 } from "styled-system";
 
 export interface BoxProps
