@@ -50,6 +50,6 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
   }
   body {
-    background-color: #E0E5EB;
+    background-color: white;
   }
 `;
