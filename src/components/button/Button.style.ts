@@ -18,4 +18,6 @@ export const StyledButton: any = styled.button<ButtonProps>`
   ${borderRadius};
   ${fontWeight};
   ${fontSize};
+
+  border-color: transparent;
 `;
