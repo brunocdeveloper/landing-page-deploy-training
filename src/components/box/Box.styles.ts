@@ -38,7 +38,6 @@ export const Container: any = styled.div<BoxProps>`
     css`
       overflow-y: auto;
     `}
-
   ${({ opacityOnHover }) =>
     opacityOnHover &&
     css`
@@ -46,5 +45,5 @@ export const Container: any = styled.div<BoxProps>`
         cursor: pointer;
         opacity: 0.9;
       }
-    `}
+    `};
 `;
