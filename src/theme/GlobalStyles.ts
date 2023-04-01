@@ -17,11 +17,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-image: url(${backgroundImg});
-    background-repeat: no-repeat;
-    background-position: center;
-
-    height: 975px;
+    background-color: #7EE5A4;
   }
 
   li > {
@@ -49,7 +45,5 @@ export const GlobalStyle = createGlobalStyle`
   button {
     cursor: pointer;
   }
-  body {
-    background-color: white;
-  }
+
 `;
