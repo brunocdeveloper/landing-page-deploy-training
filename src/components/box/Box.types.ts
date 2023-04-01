@@ -14,6 +14,7 @@ import {
   AlignSelfProps,
   MinWidthProps,
   StylesProps,
+  LayoutProps,
 } from "styled-system";
 
 export interface BoxProps
@@ -29,7 +30,8 @@ export interface BoxProps
     MinWidthProps,
     PositionProps,
     AlignSelfProps,
-    JustifyContentProps {
+    JustifyContentProps,
+    LayoutProps {
   children?: React.ReactElement | React.ReactNode;
   onClick?: () => void;
   scrollY?: boolean;

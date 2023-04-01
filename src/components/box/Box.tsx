@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "./Box.styles";
 import { BoxProps } from "./Box.types";
 
