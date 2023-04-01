@@ -22,4 +22,6 @@ export interface TextProps
   text?: string | React.ReactElement | React.ReactNode;
   onClick?: (event?: React.ChangeEvent<any>) => void;
   hover?: boolean;
+  children?: React.ReactElement | React.ReactNode;
+  className?: string;
 }

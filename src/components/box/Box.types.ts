@@ -36,4 +36,5 @@ export interface BoxProps
   onClick?: () => void;
   scrollY?: boolean;
   opacityOnHover?: boolean;
+  className?: string;
 }

@@ -1,8 +1,8 @@
-import ApresentationIcon from "../assets/ApresentationIcon";
-import Box from "../components/box/Box";
-import Button from "../components/button/Button";
-import Text from "../components/text/Text";
-import { theme } from "../theme/theme";
+import ApresentationIcon from "../../assets/ApresentationIcon";
+import Box from "../box/Box";
+import Button from "../button/Button";
+import Text from "../text/Text";
+import { theme } from "../../theme/theme";
 
 const Apresentation = () => {
   return (
@@ -35,13 +35,6 @@ const Apresentation = () => {
           fontWeight={600}
           color={theme.colors.textButton}
         />
-        <Text
-          mt={12}
-          text="* Como Vender Água para um Peixe"
-          fontSize={26}
-          fontWeight={600}
-          color={theme.colors.textButton}
-        />
 
         <Button
           mt={38}
@@ -49,10 +42,10 @@ const Apresentation = () => {
           width={279}
           height={50}
           borderRadius={50}
-          text="Comprar"
+          text="Assinar"
           fontWeight={600}
           color={theme.colors.textButton}
-          fontSize={18}
+          fontSize={20}
         />
       </Box>
       <ApresentationIcon />

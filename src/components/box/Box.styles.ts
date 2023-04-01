@@ -10,6 +10,7 @@ import {
   justifyContent,
   maxWidth,
   minWidth,
+  overflow,
   position,
   space,
   width,
@@ -30,6 +31,7 @@ export const Container: any = styled.div<BoxProps>`
   ${maxWidth};
   ${position};
   ${minWidth};
+  ${overflow}
   transition: background-color 0.2s ease-in-out;
 
   ${({ scrollY }) =>
